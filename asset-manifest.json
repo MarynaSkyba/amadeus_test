@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/amadeus_test/static/css/main.cb535121.css",
+    "main.js": "/amadeus_test/static/js/main.f7399f7e.js",
+    "static/media/WildWest.jpg": "/amadeus_test/static/media/WildWest.54ff90759c5f3a91bcff.jpg",
+    "static/media/Batman.jpg": "/amadeus_test/static/media/Batman.f862606acdbd1494b1ab.jpg",
+    "static/media/Spiderman.jpg": "/amadeus_test/static/media/Spiderman.ea532dfa8c9ae8dca668.jpg",
+    "static/media/HeaderImage.jpg": "/amadeus_test/static/media/HeaderImage.ada1626e82f7bf0dd0f7.jpg",
+    "static/media/LogoWhite.svg": "/amadeus_test/static/media/LogoWhite.ae4c0903db93614a9d8204d235661a73.svg",
+    "static/media/TwitterWhite.svg": "/amadeus_test/static/media/TwitterWhite.02d286e182544eb384172d203b63e231.svg",
+    "index.html": "/amadeus_test/index.html",
+    "static/media/SearchWhite.svg": "/amadeus_test/static/media/SearchWhite.8a2f2fa1e247432ac5c49847df2d324f.svg",
+    "static/media/MenuWhite.svg": "/amadeus_test/static/media/MenuWhite.e2e3801060fb0e2bc51c6df18b66592e.svg",
+    "static/media/YoutubeWhite.svg": "/amadeus_test/static/media/YoutubeWhite.df9a097f8a80f96ce3a9769c256b3124.svg",
+    "static/media/CloseGrey.svg": "/amadeus_test/static/media/CloseGrey.74a9ee3dd290c61899f970a72f06dba4.svg",
+    "main.cb535121.css.map": "/amadeus_test/static/css/main.cb535121.css.map",
+    "main.f7399f7e.js.map": "/amadeus_test/static/js/main.f7399f7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb535121.css",
+    "static/js/main.f7399f7e.js"
+  ]
+}
