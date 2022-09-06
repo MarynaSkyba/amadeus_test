@@ -21,66 +21,66 @@ export default function Header() {
           />
         </div>
 
-        <ul className={styles.menu}>
-          <li className={styles.menu_li} onClick={() => closeMenu()}>
-            <a href="#home">Home</a>
-          </li>
-          <li className={styles.menu_li} onClick={() => closeMenu()}>
-            Our Screen
-          </li>
-          <li className={styles.menu_li} onClick={() => closeMenu()}>
-            Schedule
-          </li>
-          <li className={styles.menu_li} onClick={() => closeMenu()}>
-            <a href="#library">Movie Library</a>
-          </li>
-          <li className={styles.menu_desktop} onClick={() => closeMenu()}>
-            <a href="#contact">Location & contact</a>
-          </li>
-          <li className={styles.menu_tablet} onClick={() => closeMenu()}>
-            Gallery
-          </li>
-        </ul>
-
-        <nav className={styles.navBar}>
-          <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-            <li className={styles.menu_navbar} onClick={() => closeMenu()}>
+        <div className={styles.menu_flex}>
+          <ul className={styles.menu}>
+            <li className={styles.menu_li} onClick={() => closeMenu()}>
               <a href="#home">Home</a>
             </li>
-            <li className={styles.menu_navbar} onClick={() => closeMenu()}>
+            <li className={styles.menu_li} onClick={() => closeMenu()}>
               Our Screen
             </li>
-            <li className={styles.menu_navbar} onClick={() => closeMenu()}>
+            <li className={styles.menu_li} onClick={() => closeMenu()}>
               Schedule
             </li>
-            <li className={styles.menu_navbar} onClick={() => closeMenu()}>
+            <li className={styles.menu_li} onClick={() => closeMenu()}>
               <a href="#library">Movie Library</a>
             </li>
-            <li className={styles.navbar_desktop} onClick={() => closeMenu()}>
+            <li className={styles.menu_desktop} onClick={() => closeMenu()}>
               <a href="#contact">Location & contact</a>
             </li>
-            <li className={styles.navbar_tablet} onClick={() => closeMenu()}>
+            <li className={styles.menu_tablet} onClick={() => closeMenu()}>
               Gallery
             </li>
           </ul>
-          <button onClick={handleToggle}>
-            {navbarOpen ? (
-              <img
-                src={require("../../assets/Icons/CloseGrey.svg").default}
-                alt="menu"
-                width="20px"
-              />
-            ) : (
-              <img
-                src={require("../../assets/Icons/MenuWhite.svg").default}
-                alt="menu"
-              />
-            )}
-          </button>
-        </nav>
+
+          <nav className={styles.navBar}>
+            <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
+              <li className={styles.menu_navbar} onClick={() => closeMenu()}>
+                <a href="#home">Home</a>
+              </li>
+              <li className={styles.menu_navbar} onClick={() => closeMenu()}>
+                Our Screen
+              </li>
+              <li className={styles.menu_navbar} onClick={() => closeMenu()}>
+                Schedule
+              </li>
+              <li className={styles.menu_navbar} onClick={() => closeMenu()}>
+                <a href="#library">Movie Library</a>
+              </li>
+              <li className={styles.navbar_desktop} onClick={() => closeMenu()}>
+                <a href="#contact">Location & contact</a>
+              </li>
+              <li className={styles.navbar_tablet} onClick={() => closeMenu()}>
+                Gallery
+              </li>
+            </ul>
+            <button onClick={handleToggle}>
+              {navbarOpen ? (
+                <img
+                  src={require("../../assets/Icons/CloseGrey.svg").default}
+                  alt="menu"
+                  width="20px"
+                />
+              ) : (
+                <img
+                  src={require("../../assets/Icons/MenuWhite.svg").default}
+                  alt="menu"
+                />
+              )}
+            </button>
+          </nav>
+        </div>
       </div>
     </>
   );
 }
-
-

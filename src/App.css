@@ -6,19 +6,10 @@
 
 
 .container {
-  /* padding-left: 20px;
-  padding-right: 20px; */
   margin-left: auto;
   margin-right: auto;
 }
 
-/* .movie-app{
-  width: 100%;
-}
-
-.row {
-  flex-wrap: wrap;
-} */
 
 
 .image-container {
@@ -60,19 +51,6 @@
 
 .menuNav {
   display: none;
-  /* overflow-y: scroll;
-  list-style: none;
-  position: fixed;
-  top: 0;
-  background: black;
-  right: 0;
-  bottom: 0;
-  height: 100vh;
-  width: 0;
-  overflow: hidden;
-  max-width: 500px;
-  z-index: 9;
-  transition: transform 0.5s ease-in-out; */
 }
 
 .menuNav.showMenu {
@@ -98,9 +76,3 @@
   }
   
 }
-
-
-/* 
-.menuNav li:first-child {
-  margin-top: 7rem;
-} */

@@ -80,6 +80,9 @@
     display: flex;
   }
 
+  .menu_flex {
+    display: flex;
+  }
   .nav_menu {
     display: flex;
     justify-content: space-between;

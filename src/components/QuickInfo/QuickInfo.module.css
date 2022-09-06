@@ -68,6 +68,7 @@
 
 .item {
   flex-basis: 350px;
+  max-width: 350px;
   background-color: #3c3c3c;
   cursor: pointer;
 }
@@ -120,14 +121,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  /* .item {
-    max-width: 400px;
-  }
-  
-    .item:not(:last-child) {
-      margin-bottom: 20px;
-    }
-   */
   .search_menu {
     display: flex;
     justify-content: space-between;
@@ -142,14 +135,4 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
-  /* .item {
-      max-width: 294px;
-      width: calc((100% - 4 * 15px) / 2);
-      margin: 15px;
-    } */
-  /* .ul{
-    margin: -15px;
-  
-  } */
-}
+
