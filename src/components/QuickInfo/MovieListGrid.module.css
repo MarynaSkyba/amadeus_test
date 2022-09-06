@@ -1,0 +1,25 @@
+.list_container {
+  display: flex;
+  width: 100%;
+  margin: 5px;
+}
+
+.img_contaner {
+  width: 100px;
+}
+
+.poster {
+  width: 100px;
+}
+
+.about_film {
+  background-color: #3c3c3c;
+  padding: 20px;
+  width: 100%;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,16 @@
+.maps{
+    width: 100%;
+    height: 400px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .maps {
+    width: 500px;
+    height: 400px;
+  }
+  
+  .contact {
+    align-self: end;
+  }
+}

@@ -1,0 +1,155 @@
+.container {
+  padding: 20px;
+  background-color: #1d1d1d;
+}
+.text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.width {
+  width: 100%;
+}
+
+.add_favourite {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: ease-in-out;
+}
+
+.add_favourite:hover {
+  color: grey;
+  transform: scale(1.1);
+}
+
+.src {
+  position: relative;
+}
+
+.img {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  padding-left: 10px;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.search_menu {
+  padding-bottom: 30px;
+  border-bottom: 2px solid white;
+}
+
+.search {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+}
+
+.ul {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+
+  max-width: calc(100vw - 80px);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.item {
+  flex-basis: 350px;
+  background-color: #3c3c3c;
+  cursor: pointer;
+}
+
+.poster {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.poster_static {
+  height: 340px;
+  width: 100%;
+}
+
+
+.about_film {
+  background-color: #3c3c3c;
+  padding: 20px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.description {
+  color: #b8b8b8;
+  font-size: 14px;
+  line-height: 20px;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 100px;
+}
+
+.img_container {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  margin: 5px;
+  background-color: #1a1b1c;
+}
+
+@media screen and (min-width: 768px) {
+  /* .item {
+    max-width: 400px;
+  }
+  
+    .item:not(:last-child) {
+      margin-bottom: 20px;
+    }
+   */
+  .search_menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .description {
+    max-width: 200px;
+  }
+
+  .poster {
+    height: 340px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* .item {
+      max-width: 294px;
+      width: calc((100% - 4 * 15px) / 2);
+      margin: 15px;
+    } */
+  /* .ul{
+    margin: -15px;
+  
+  } */
+}

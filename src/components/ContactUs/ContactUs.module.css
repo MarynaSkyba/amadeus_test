@@ -1,0 +1,109 @@
+.container {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: black;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.text {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about {
+  font-size: small;
+  color: #b7b7b7;
+  width: 50%;
+}
+
+.text_required {
+  color: #b7b7b7;
+  margin-bottom: 20px;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  background-color: #3c3c3c;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.label {
+  color: #b7b7b7;
+}
+
+.terms {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.text_terms {
+  color: white;
+  text-decoration: underline;
+}
+
+.text_agree {
+  color: #b7b7b7;
+  font-size: small;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #d29600;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
+
+  align-self: center;
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    width: 30%;
+  }
+  .button_container {
+    justify-content: end;
+  }
+  .name_form {
+    display: flex;
+  }
+
+  .surmane_desktop {
+    width: 100%;
+  }
+  .name_desktop {
+    width: 100%;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+
+  .main_container {
+    display: flex;
+    padding: 20px;
+  }
+}
+
+textarea {
+  resize: none;
+  color: white;
+}

@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+ }
+
+
+
+.container {
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .movie-app{
+  width: 100%;
+}
+
+.row {
+  flex-wrap: wrap;
+} */
+
+
+.image-container {
+  position: relative; /* Sit on top of the page content */
+  transition: transform 0.2s;
+  max-width: 300px;
+  list-style: none;
+  border: 1px solid #a52a62;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.image-container:hover{
+  cursor: pointer; /* Add a pointer on hover */
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+
+
+
+
+.menuNav {
+  display: none;
+  /* overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: black;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 500px;
+  z-index: 9;
+  transition: transform 0.5s ease-in-out; */
+}
+
+.menuNav.showMenu {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: black;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  padding: 10px;
+  padding-top: 80px;
+  overflow: hidden;
+  max-width: 500px;
+  z-index: 9;
+  display: block;
+} 
+
+@media screen and (min-width:1024px) {
+  .menuNav.showMenu{
+    width: 80%;
+  }
+  
+}
+
+
+/* 
+.menuNav li:first-child {
+  margin-top: 7rem;
+} */

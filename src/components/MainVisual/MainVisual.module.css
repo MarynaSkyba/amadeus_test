@@ -1,0 +1,8 @@
+.container {
+  background-image: url("../../assets/Images/HeaderImage.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 0.5px solid #161616;
+}
